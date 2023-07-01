@@ -1,41 +1,89 @@
 body {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
-.header, .footer {
+
+.hero-container {
+    padding: 20px 150px;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column; /*changed to column*/ 
+    margin: 0;
 }
 
-.header {
+.hero-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 30px;
-
+    width: 100%;
+    margin-bottom: 50px; /*added margin-bottom */ 
 }
 
-.header-logo img {
+.hero-logo img {
     width: 100px;
     height: auto;
-
+    margin-right: 100px;
 }
 
-.header-links {
+.hero-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 20px;
     list-style-type: none;
     padding: 0;
-    flex: 1;
     font-size: 18px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
-.header-links li {
-    margin: 0 10px; 
+.hero-links li {
+    margin: 0 10px;
 }
 
-
-.first-section {
-     
+a:link {
+    color: whitesmoke;
 }
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+color: pink;
+}
+
+/* hero main content styling starts here */ 
+
+.hero-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 42px;
+    align-self: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.doge-main {
+    width: 330px;
+    height: auto;
+    align-self: flex-start;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    width: 83px;
+    align-self: flex-start;
+}
+
+/*end of hero content styling*/ 

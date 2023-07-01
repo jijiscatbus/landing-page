@@ -8,57 +8,67 @@
     <link rel="stylesheet" href="styles.css">
 </head> 
 <body>
+<!--hero header and content should all be one section-->
 
-    <div class="header">
-        <div class="header-logo">
-            <img src="./images/dogecoin.png" alt="dogecoin logo">
+<div class="hero-container">
+    <div class="hero-header">
+        
+        <div class="hero-logo">
+            <img src="./images/dogecoin.png" alt="doge logo image">
         </div>
-        <ul class="header-links">
+
+        <ul class="hero-links">
             <li><a href="#link1">header link one</a></li>
             <li><a href="#link2">header link two</a></li>
             <li><a href="#link3">header link three</a></li>
         </ul>
     </div>
 
-    <!--header section ends here-->
+    <div class="hero-content"> <!--start hero content-->
+        <div>
+            <h2>This website is awesome</h2>
+            <p>This website has some subtext that goes here under 
+                the main title.<br>It's a smaller font and the color is lower contrast</p>
+                <button class="hero-button">Sign Up</button> 
+        </div>
 
-    <div class="first-section">
-        <h2>This website is awesome</h2>
-        <p>This website has some subtext that goes here under the 
-            main title. It's a smaller font' and the color is lower contrast</p>
-        
-            <button>Sign Up</button>
-            <!--image placeholder-->
-    </div>
-
-    <!--top section ends here-->
-
-<div class="second-section">
-<h3>Some random information</h3>
-<!--four images in a row with text underneath-->
-</div>
-
-<!--second section ends here-->
-
-<div class="third-section">
-<p>quote</p>
-</div> 
-
-<!--third section ends here-->
-
-<div class="fourth-section">
-
-    <div class="call-to-action">
-        <p>Call to action it's time!</p>
-        <p>Sign up for our product by clicking that button right over there</p>
-        <button>Sign up</button>
-    </div>
-</div>
-
-<footer class="footer">
-
-
-</footer>
+        <!--image for hero main -->
+        <img class="doge-main" src="./images/doge-simple.jpg" alt="dogecoin shiba inu">
+       
+    </div> <!--end of hero content div-->
     
-</body>
-</html>
+   
+</div>
+
+<!--end of the hero section-->
+
+<div class="randominfo-container">
+    <div>
+        <p>Some random information</p>
+        <!--four smaller images next to each other-->
+    </div>
+
+</div>
+
+<!--end of random info section-->
+
+<div class="quote-section">
+    <div>
+        <p>Quote text</p>
+    </div>
+
+</div>
+<!--end of quote section-->
+
+<div class="cta-container">
+    <div class="cta-content">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <button class="cta-button">Sign up</button>
+    </div>
+</div>
+
+<div class="footer">
+<p>Copyright - The Odin Project 2023</p>
+
+</div>
