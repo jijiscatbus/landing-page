@@ -87,3 +87,50 @@ color: pink;
 }
 
 /*end of hero content styling*/ 
+
+.info-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info-container h3 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.doge-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.doge-img-container img {
+    width: 200px;
+    height: auto;
+}
+
+.subtext {
+    color: #888;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*end of info container stylings*/ 
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 250px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
