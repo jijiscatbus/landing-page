@@ -81,9 +81,13 @@ color: pink;
 }
 
 .hero-button {
+    color: whitesmoke;
+    font-weight: bold;
     background-color: #3882f6;
-    width: 83px;
+    width: 90px;
+    height: auto;
     align-self: flex-start;
+    border-radius: 5px;
 }
 
 /*end of hero content styling*/ 
@@ -109,8 +113,10 @@ color: pink;
 }
 
 .doge-img-container img {
-    width: 200px;
+    width: 180px;
     height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 3px;
 }
 
 .subtext {
@@ -130,7 +136,49 @@ color: pink;
 }
 
 .quote-section p {
+    text-align: center;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+}
+
+/*end of the quote section*/ 
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex: 1;
+}
+
+.sign-up-content {
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px 150px;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    color: #fff;
+    margin-left: 50px;
+    background-color: #3882f6;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+/*footer section*/ 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: whitesmoke;
+    font-family: 'Roboto', arial;
 }
