@@ -163,6 +163,10 @@ color: pink;
     border-radius: 5px;
 }
 
+.sign-up-content p {
+    line-height: 20px;
+}
+
 .sign-up-button {
     color: #fff;
     margin-left: 50px;
